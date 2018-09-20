@@ -1,0 +1,1 @@
+schtasks /create /tn "Minimize_Borderless_Gaming" /tr "%MyDirT%Minimize_BG.exe" /sc once /sd 01/01/1901 /st 00:00 /RU AGENT\Agent /RL HIGHEST
